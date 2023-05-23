@@ -1,4 +1,10 @@
-# SpikeSorting
+# SortTEMPLATE
+
+Template structure for running spike sorting on microwire data.
+
+[![Template](https://img.shields.io/badge/template-HSUPipeline/SortTEMPLATE-yellow.svg)](https://github.com/HSUPipeline/SortTEMPLATE)
+
+## Notes
 
 This repository covers information and guides for running SpikeSorting on single-unit data.
 
