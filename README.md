@@ -1,16 +1,44 @@
 # SortTEMPLATE
 
-Template structure for running spike sorting on microwire data.
+Template structure for spike sorting microwire data.
 
+[![Convert](https://img.shields.io/badge/data-ConvertTEMPLATE-lightgrey)](https://github.com/HSUPipeline/ConvertTEMPLATE)
+[![Analysis](https://img.shields.io/badge/analysis-AnalyzeTEMPLATE-lightgrey)](https://github.com/HSUPipeline/AnalyzeTEMPLATE)
 [![Template](https://img.shields.io/badge/template-HSUPipeline/SortTEMPLATE-yellow.svg)](https://github.com/HSUPipeline/SortTEMPLATE)
+
+## TEMPLATE DESCRIPTION
+
+This is a template repository for running spike sorting on a dataset, using the
+[combinato](https://github.com/jniediek/combinato) spike sorter.
+
+This template follows the general purpose
+[ProjectTemplate](https://github.com/structuredscience/ProjectTemplate)
+layout from
+[StructuredScience](https://github.com/structuredscience/).
+
+For information on how to use this template in a project, see the
+[HSUPipeline Guide](https://github.com/HSUPipeline/Overview/blob/main/Guide.md).
+
+Note: if copying this template for use, this section can be removed.
 
 ## Overview
 
-This repository covers information and guides for running SpikeSorting on single-unit data.
+**Provide an overview of the data here, for example:**
 
-For resources and a list of available spike sorters, see the
-[Spike Resources](https://github.com/openlists/SpikeResources#spike-sorting)
-open list.
+This repository manages spike sorting for the XX task / project.
+
+## Requirements
+
+**Fill in any extra requirements here.**
+
+This repository requires Python >= 3.7.
+
+As well as typical scientific Python packages, dependencies include:
+
+- [convnwb](https://github.com/HSUPipeline/convnwb)
+- [combinato](https://github.com/jniediek/combinato)
+
+The full list of dependencies is listed in `requirements.txt`.
 
 ## Repository Layout
 
@@ -21,35 +49,6 @@ This repository is set up in the following way:
 - `scripts/` contains stand alone scripts to run processes
 - `shell/` contains shell scripts that run spike sorting related processes
 
-## Notes
+## Run Procedures
 
-Note: perhaps want to move this stuff?
-
-### Sorting with Combinato
-
-[Combinato](https://github.com/jniediek/combinato/)
-is a Python tool for spike sorting.
-
-For tutorials and documentation, see the
-[Wiki](https://github.com/jniediek/combinato/wiki/).
-
-Combinato is described in
-[this paper](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0166598).
-
-### Sorting with SpikeInterface
-
-[SpikeInterface](https://github.com/SpikeInterface/spikeinterface)
-is a tool that spike sorting workflows, and allows for running many different spike sorters.
-
-For more information, see the
-[documentation](https://spikeinterface.readthedocs.io/en/latest/).
-
-SpikeInterface is described in
-[this paper](https://elifesciences.org/articles/61834).
-
-### Core Resources
-
-Papers:
-- [Past, present and future of spike sorting techniques](https://www.sciencedirect.com/science/article/pii/S0361923015000684)
-- [Quality Metrics to Accompany Spike Sorting of Extracellular Signals](https://www.jneurosci.org/content/31/24/8699.short)
-
+Words, words, words.
