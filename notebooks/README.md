@@ -2,14 +2,14 @@
 
 The following notebooks run through the processes for spike sorting data.
 
-### 00-CheckData
+### 00-MetaData
 
 Words, words, words.
 
-### 01-RunSorting
+### 01-NeuralData
 
 Words, words, words.
 
-### 02-ExtractSorting
+### 02-Export
 
 Words, words, words.
