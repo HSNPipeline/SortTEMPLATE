@@ -1,6 +1,6 @@
 # SortTEMPLATE
 
-Template structure for spike sorting microwire data.
+Template structure for spike sorting microwire data from human subjects.
 
 [![Template](https://img.shields.io/badge/template-HSUPipeline/SortTEMPLATE-yellow.svg)](https://github.com/HSUPipeline/SortTEMPLATE)
 [![Convert](https://img.shields.io/badge/data-ConvertTEMPLATE-lightgrey)](https://github.com/HSUPipeline/ConvertTEMPLATE)
@@ -51,4 +51,9 @@ This repository is set up in the following way:
 
 ## Run Procedures
 
-Words, words, words.
+The main procedures involved are detailed through the `notebooks`.
+
+To run processes across sessions / subjects, the files in `shell` and `scripts` can be used.
+
+For a detailed description of how this approach works, and instructions on making
+updates, see the [SortTEMPLATE](https://github.com/HSUPipeline/SortTEMPLATE).
