@@ -11,6 +11,11 @@ EXPERIMENT = 'XX'
 SUBJ = 'XX'
 SESSION = 0
 
+#### DEFINE SPIKE SORTING INFORMATION
+
+POLARITY = 'neg'     # 'neg' / 'pos' - sorting polarity
+USER = 'XXX'         # for combinato sorting, the 3 character user that is appended to outputs
+
 ###################################################################################################
 ## For standard usage, nothing should need to be updated below
 
@@ -28,3 +33,9 @@ PROJECT_PATH = BASE_PATH + PROJECT
 
 # Create the paths object
 PATHS = Paths(PROJECT_PATH, SUBJECT, EXPERIMENT, SESSION)
+
+# Collect together spike sorting settings
+SORT_SETTINGS = {
+    'polarity' : POLARITY,
+    'user' : USER,
+}
