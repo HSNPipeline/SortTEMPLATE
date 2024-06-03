@@ -1,16 +1,10 @@
-"""Process the metadata for XX."""
-
-import os
-
-import h5py
-import numpy as np
-
-from settings import DB
+"""Process the metadata for sorting."""
 
 ###################################################################################################
 ###################################################################################################
 
 def process_metadata():
+    """Process sorting related metadata for a session of data."""
     pass
 
 if __name__ == '__main__':

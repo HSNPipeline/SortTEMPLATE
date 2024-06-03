@@ -11,6 +11,12 @@ EXPERIMENT = 'XX'
 SUBJ = 'XX'
 SESSION = 0
 
+SESSION = {
+    'SUBJECT' : SUBJECT,
+    'EXPERIMENT' : EXPERIMENT,
+    'SESSION' : SESSION,
+}
+
 #### DEFINE SPIKE SORTING INFORMATION
 
 POLARITY = 'neg'     # 'neg' / 'pos' - sorting polarity

@@ -1,6 +1,9 @@
 """Extract spike sorting solutions."""
 
-from convnwb.sorting.process import process_combinato_data
+# Add local folder with `conv` module
+import sys
+sys.path.append('..')
+from sort.sorting import process_combinato_data
 
 # Import local settings
 from settings import PATHS, SORT_SETTINGS
