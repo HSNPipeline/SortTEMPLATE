@@ -4,12 +4,16 @@ The following notebooks run through the processes for spike sorting data.
 
 ### 00-MetaData
 
-Words, words, words.
+This notebook prepares metadata related to sorting.
 
-### 01-NeuralData
+### 01-Alignment
 
-Words, words, words.
+This notebook manages and processes any alignment related information.
 
-### 02-Export
+### 02-NeuralData
 
-Words, words, words.
+This notebook loads neural data files, and prepares them for sorting.
+
+### 03-ExtractSorted
+
+This notebook extract spike sorting solutions for downstream use.
