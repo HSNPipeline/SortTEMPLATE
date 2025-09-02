@@ -2,9 +2,9 @@
 
 Template structure for spike sorting microwire data from human subjects.
 
-[![Template](https://img.shields.io/badge/template-HSUPipeline/SortTEMPLATE-yellow.svg)](https://github.com/HSUPipeline/SortTEMPLATE)
-[![Convert](https://img.shields.io/badge/data-ConvertTEMPLATE-lightgrey)](https://github.com/HSUPipeline/ConvertTEMPLATE)
-[![Analysis](https://img.shields.io/badge/analysis-AnalyzeTEMPLATE-lightgrey)](https://github.com/HSUPipeline/AnalyzeTEMPLATE)
+[![Template](https://img.shields.io/badge/template-HSNPipeline/SortTEMPLATE-yellow.svg)](https://github.com/HSNPipeline/SortTEMPLATE)
+[![Convert](https://img.shields.io/badge/data-ConvertTEMPLATE-lightgrey)](https://github.com/HSNPipeline/ConvertTEMPLATE)
+[![Analysis](https://img.shields.io/badge/analysis-AnalyzeTEMPLATE-lightgrey)](https://github.com/HSNPipeline/AnalyzeTEMPLATE)
 
 ## TEMPLATE DESCRIPTION
 
@@ -17,7 +17,7 @@ layout from
 [StructuredScience](https://github.com/structuredscience/).
 
 For information on how to use this template in a project, see the
-[HSUPipeline Guide](https://github.com/HSUPipeline/Overview/blob/main/Guide.md).
+[HSNPipeline Guide](https://github.com/HSNPipeline/Overview/blob/main/Guide.md).
 
 Note: if copying this template for use, this section can be removed.
 
@@ -35,7 +35,7 @@ This repository requires Python >= 3.7.
 
 As well as typical scientific Python packages, dependencies include:
 
-- [convnwb](https://github.com/HSUPipeline/convnwb)
+- [convnwb](https://github.com/HSNPipeline/convnwb)
 - [combinato](https://github.com/jniediek/combinato)
 
 The full list of dependencies is listed in `requirements.txt`.
@@ -57,4 +57,4 @@ The main procedures involved are detailed through the `notebooks`.
 To run processes across sessions / subjects, the files in `shell` and `scripts` can be used.
 
 For a detailed description of how this approach works, and instructions on making
-updates, see the [SortTEMPLATE](https://github.com/HSUPipeline/SortTEMPLATE).
+updates, see the [SortTEMPLATE](https://github.com/HSNPipeline/SortTEMPLATE).

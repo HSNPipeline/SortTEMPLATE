@@ -7,7 +7,7 @@ This file tracks changes across development of the `SortTEMPLATE` repository.
 The `0.4.X.` series, starting with the `0.4.0` tagged release is a major update to the template,
 which now integrates the use of the `convnwb` module (v0.4.0).
 
-Note that in order to maintain version number alignment with `convnwb` and the other HSU
+Note that in order to maintain version number alignment with `convnwb` and the other HSN
 templates, this template jumps from `0.1.0` to `0.4.0` (there are no `0.2.0` or `0.3.0` versions).
 
 ## 0.1.X Version
