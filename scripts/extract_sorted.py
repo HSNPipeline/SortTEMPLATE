@@ -3,7 +3,7 @@
 # Add local folder with `conv` module
 import sys
 sys.path.append('..')
-from sort.sorting import process_combinato_data
+from hsntools.sorting.process import process_combinato_data
 
 # Import local settings
 from settings import PATHS, SORT_SETTINGS
