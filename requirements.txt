@@ -1,2 +1,2 @@
-convnwb >= 0.4.0
+hsntools
 combinato

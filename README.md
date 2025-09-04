@@ -35,7 +35,7 @@ This repository requires Python >= 3.7.
 
 As well as typical scientific Python packages, dependencies include:
 
-- [convnwb](https://github.com/HSNPipeline/convnwb)
+- [hsntools](https://github.com/HSNPipeline/hsntools)
 - [combinato](https://github.com/jniediek/combinato)
 
 The full list of dependencies is listed in `requirements.txt`.
@@ -47,7 +47,7 @@ This repository is set up in the following way:
 - `metadata/` contains config files that define metadata fields
 - `notebooks/` contains notebooks that demonstrate examples of spike sorting related tasks
 - `scripts/` contains stand alone scripts to run processes
-- `sort/` inherits from convnwb and contains custom code for pre-processing / sorting data
+- `sort/` contains custom code for pre-processing / sorting data
 - `shell/` contains shell scripts that run spike sorting related processes
 
 ## Run Procedures
