@@ -1,6 +1,6 @@
 """Helper functions for managing / processing channel information."""
 
-from sort import Electrodes
+from hsntools.objects import Electrodes
 
 ###################################################################################################
 ###################################################################################################
