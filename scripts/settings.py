@@ -1,4 +1,4 @@
-"""Settings for spike sorting recordings."""
+"""Settings for pre-processing & spike sorting recordings."""
 
 from hsntools.paths import Paths
 

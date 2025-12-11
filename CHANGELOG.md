@@ -1,6 +1,6 @@
 # Changelog
 
-This file tracks changes across development of the `SortTEMPLATE` repository.
+This file tracks changes across development of the `PrepTEMPLATE` repository.
 
 ## 1.0.X Version
 
@@ -8,6 +8,8 @@ The `1.0.X` series, starting with the `1.0.0` tagged release is a major update /
 change update to the template, following the `1.0.0` release of `hsntools` (formerly `convnwb`).
 
 This update uses the new naming scheme of `hsntools-1.0.0`.
+
+Note that prior to this release, this was called the `SortTEMPLATE`.
 
 ## 0.4.X Version
 
