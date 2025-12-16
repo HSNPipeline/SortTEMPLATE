@@ -1,6 +1,6 @@
 # PrepTEMPLATE
 
-Template structure for pre-processing data for human single-neuron projects, including spike sorting.
+Template structure for pre-processing HSN data.
 
 [![Template](https://img.shields.io/badge/template-HSNPipeline/PrepTEMPLATE-yellow.svg)](https://github.com/HSNPipeline/PrepTEMPLATE)
 [![Convert](https://img.shields.io/badge/data-ConvertTEMPLATE-lightgrey)](https://github.com/HSNPipeline/ConvertTEMPLATE)
@@ -8,7 +8,7 @@ Template structure for pre-processing data for human single-neuron projects, inc
 
 ## TEMPLATE DESCRIPTION
 
-This is a template repository for pre-processing human single-neuron data.
+This is a template repository for pre-processing human single-neuron data, including spike sorting.
 
 This template follows the general purpose
 [ProjectTemplate](https://github.com/structuredscience/ProjectTemplate)
@@ -25,13 +25,11 @@ Note: if copying this template for use, this section can be removed.
 
 ## Overview
 
-**Provide an overview of the data here, for example:**
+*Provide an overview of the project / data here, for example:*
 
-This repository manages pre-processing for the XX task / project.
+This repository manages pre-processing for the `XX` task / project.
 
 ## Requirements
-
-**Fill in any extra requirements here.**
 
 This repository requires Python >= 3.7.
 
@@ -46,6 +44,8 @@ Note that the above link for combinato is for an updated version adapted for us
 with the HSNPipeline. The original version is
 [here](https://github.com/jniediek/combinato).
 
+*Fill in or edit any additional requirements here.*
+
 ## Repository Layout
 
 This repository is set up in the following way:
@@ -55,6 +55,8 @@ This repository is set up in the following way:
 - `prep/` contains custom code for pre-processing data and running sorting data
 - `scripts/` contains stand alone scripts to run processes
 - `shell/` contains shell scripts that run pre-processing related operations
+
+*Add or edit any details about repository layout here.*
 
 ## Run Procedures
 
