@@ -52,8 +52,8 @@ This repository is set up in the following way:
 
 - `metadata/` contains config files that define metadata fields
 - `notebooks/` contains notebooks that demonstrate examples of pre-processing and spike sorting
-- `scripts/` contains stand alone scripts to run processes
 - `prep/` contains custom code for pre-processing data and running sorting data
+- `scripts/` contains stand alone scripts to run processes
 - `shell/` contains shell scripts that run pre-processing related operations
 
 ## Run Procedures
